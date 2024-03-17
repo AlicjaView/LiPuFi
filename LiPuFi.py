@@ -57,11 +57,20 @@ def find_life_purpose():
     realization1 = f"realizing {answers[3][1]}"
     realization2 = f"to being able to {answers[0][1]}"
     
+    print("\n")
+    
     # Create the sentence based on the answers
     sentence = f"Find harmony between {passion}, \n{reflection}, \n{realization1}, \n{realization2}."
-    
+
     # Display user's answers
     print(sentence)
+    
+    # Detailed explanation of life purpose
+    print("\nTo better understand your life purpose:")
+    print(f"- {answers[2][1]}: This indicates what activities or areas of interest bring you the most joy and fulfillment.")
+    print(f"- {answers[1][1]}: Reflecting on this role helps you understand what aspects of your identity or contribution to society are most meaningful to you.")
+    print(f"- {answers[3][1]}: Realizing this aspect involves understanding your potential impact on the world and how you can contribute positively.")
+    print(f"- {answers[0][1]}: This represents your motivation or drive, indicating what inspires you to take action and pursue your goals.")
 
 # Run the script
 find_life_purpose()
